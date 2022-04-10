@@ -1,9 +1,34 @@
-import React from 'react'
+import React from "react";
+import CvUploader from "./CvUploader";
+import imageOfMe from "../../media/imageOfMe.jpg";
+import HeaderSocials from "./HeaderSocials";
+import "./header.css";
+
+
+
+
+
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header>
+      <div className="header_container">
+        <h5>Hello, my name is </h5>
+        <h1>Marian Ilie</h1>
+        <h5 className="text-light">Full Stack Developer </h5>
+        <CvUploader />
+        <HeaderSocials />
 
-export default Header
+        <div className="imageOfMe">
+          <img src={imageOfMe} alt="imageOfMe"className="imageOfMeSize"/>
+        </div>
+
+        <a href="#contacts" className="scroll_down">
+          Scroll Down
+        </a>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

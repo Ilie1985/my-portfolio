@@ -14,8 +14,8 @@
 /* CSS VARIABLES */
 
 :root {
---color-bg: #0606a3;
---color-bg-variant:#b1b1c5;
+--color-bg: rgb(33, 44, 54);
+--color-bg-variant:#383852;
 --color-primary:#4db5ff;
 --color-primary-variant: rgba(77,181,255,0.4);
 --color-white:#fff;
@@ -24,7 +24,7 @@
 --container-width-lg: 75%;
 --container-width-md:86%;
 --container-width-sm:90%;
---transition: all 400ms ease;
+--transition: all 500ms ease;
 }
 html {
     scroll-behavior:smooth;
@@ -38,7 +38,7 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
   line-height:1.7;
-  background-image: url(../src/media/Screenshot_20211015_183219_com.google.android.apps.docs123.jpg)
+  /* background-image: url(../src/media/Screenshot_20211015_183219_com.google.android.apps.docs123.jpg) */
 }
  
 
@@ -57,10 +57,11 @@ h1 {
 }
 section{
    margin-top:8rem;
+   height:100vh;
 
 }
 
-/* target the direct chile of section */
+/* target the direct child of <section> */
 
 section >h2, section >h5{
     text-align:center;
@@ -73,7 +74,7 @@ section >h2{
 }
 
 .text-light{
-    color:vaar(--color-light);
+    color:var(--color-light);
 }
 a{
   color:var(--color-primary);
@@ -104,9 +105,35 @@ a:hover{
 .button-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+    border-radius:0.2rem;
+   padding: 0.2rem;
 }
 img{
     display:block;
     width:100%;
     object-fit:cover;
+}
+
+ /* ============ MEDIA QUERIES(MEDIUM DEVICES) =============  */
+
+@media screen and (max-width:1024px) {
+    .container{
+       width :var(--container-width-md); 
+    }
+
+    section{
+        margin-top :6rem;
+    }
+}
+
+/* ============ MEDIA QUERIES(SMALLDEVICES) =============  */
+
+@media screen and (max-width:600px) {
+    .container{
+       width :var(--container-width-sm); 
+    }
+
+    section > h2{
+        margin-bottom :2rem;
+    }
 }
