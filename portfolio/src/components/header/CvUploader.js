@@ -7,7 +7,7 @@ const CvUploader = () => {
         Download CV
       </a>
 
-      <a href="#contact" className="button button-primary">
+      <a href="#contacts" className="button button-primary">
         {" "}
          Message me
       </a>

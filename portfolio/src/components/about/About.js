@@ -48,7 +48,7 @@ const About = () => {
               reiciendis veniam aspernatur veritatis impedit quam. Corrupti
               porro voluptatem pariatur quae voluptatibus?
             </p>
-            <a href="#contacts" className="button-primary">
+            <a href="#contacts" className=" button button-primary">
               Let`s talk
             </a>
         </div>
