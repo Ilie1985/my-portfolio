@@ -1,5 +1,10 @@
 import React from "react";
 import cv from "../../media/cv.pdf";
+
+
+
+
+
 const CvUploader = () => {
   return (
     <div className="cv-upload">

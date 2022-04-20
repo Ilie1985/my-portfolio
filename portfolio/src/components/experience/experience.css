@@ -1,14 +1,15 @@
 .experience_container{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr;
     gap:2rem;
 }
  .experience_container > div{
      background:var(--color-bg-variant) ;
-     padding:2.4rem 5rem;
+     padding:1rem;
      border-radius:2rem;
      border: 1px solid transparent;
      transition:var(--transition);
+    width:99.5%;
  }
  .experience_container>div:hover{
      background:transparent ;
@@ -37,6 +38,8 @@
 @media screen and (max-width:1024px) {
  .experience_container{
      grid-template-columns: 0.9fr;
+     position:relative;
+     left:4rem;
  }
  .experience_container>div{
      width:80%;
@@ -57,9 +60,11 @@
 @media screen and (max-width:600px) {
     .experience_container{
         gap:1rem;
+        position:relative;
+        left:1.3rem;
     }
     .experience_container>div{
-        width:100%;
+         width:100%; 
         padding:2rem 1rem;
         
     }
