@@ -98,7 +98,20 @@ header{
 display :none;
 }
 
+.imageOfMe{
+    width:90%;
+    height:60%;
+    position:relative;
+    left:0.8rem;
+}
 
+.imageOfMeSize{
+    width:100%;
+    position:relative;
+    left:0.1rem;
+
+    
+}
 
 
  }
