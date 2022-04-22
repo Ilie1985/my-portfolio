@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <div className="header_container">
-        <h5>Hello, my name is </h5>
+        <h1>Hello, my name is </h1>
         <h1>Marian Ilie</h1>
         <h5 className="text-light">Full Stack Developer </h5>
         <CvUploader />
