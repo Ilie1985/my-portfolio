@@ -12,7 +12,7 @@ const NavMenu = () => {
   return (
     <nav>
       <a
-        href="#header"
+        href="#"
         className={activeNav === "#" ? "active" : ""}
         onClick={() => setActiveNav("#")}
       >
