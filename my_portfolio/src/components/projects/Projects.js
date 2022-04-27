@@ -39,14 +39,14 @@ const Projects = () => {
               </div>
               <h3>{title}</h3>
               <div className="projects_item-link">
-                <a href={github} className="button" target="_blank">
+                <a href={github} className="button" target="_blank" rel="noreferrer" >
                   Github
                 </a>
                 <a
                   href={demo}
                   className="button button-primary"
                   target="_blank"
-                >
+                  rel="noreferrer" >
                   Live Demo
                 </a>
               </div>
