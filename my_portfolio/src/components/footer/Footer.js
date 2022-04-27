@@ -7,12 +7,12 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer_logo">
+      <a href="#header" className="footer_logo">
         Marian Ilie
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#header">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
