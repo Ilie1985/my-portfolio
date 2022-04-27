@@ -16,18 +16,14 @@ const About = () => {
             <img src={imageOfMe} alt="aboutImage" />
           </div>
         </div>
-        
 
         <div className="about_content">
           <div className="about_cards">
-
-
-          <article className="about_card">
+            <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
               <small>200+ Worldwide</small>
             </article>
-
 
             <article className="about_card">
               <FiUsers className="about_icon" />
@@ -40,17 +36,19 @@ const About = () => {
               <h5>Projects</h5>
               <small>4 + Completed projects</small>
             </article>
-
           </div>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio rem
-              explicabo itaque laudantium fugit, illum nulla quasi accusantium
-              reiciendis veniam aspernatur veritatis impedit quam. Corrupti
-              porro voluptatem pariatur quae voluptatibus?
-            </p>
-            <a href="#contacts" className=" button button-primary">
-              Let`s talk
-            </a>
+          <p>
+            I am an ambitious, creative and self motivated person. Having
+            recently completed The School of Code bootcamp, I have developed
+            important skills like : Agile Methodologies, communication, active
+            team player , adaptability, pair programming, problem-solving,
+            time-management, work under pressure, self-documentation. Seeking to
+            further my growth in a professional environment as a Front-End Web
+            Developer.
+          </p>
+          <a href="#contacts" className=" button button-primary">
+            Let`s talk
+          </a>
         </div>
       </div>
     </section>
