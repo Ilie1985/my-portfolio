@@ -1,5 +1,0 @@
-[[redirects]]
-from = "/*/"
-to = "https://ilie-portfolio.netlify.app"
-status = 200
-force = false
