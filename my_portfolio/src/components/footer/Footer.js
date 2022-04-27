@@ -7,12 +7,12 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#header" className="footer_logo">
+      <a href="#" className="footer_logo">
         Marian Ilie
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#header">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -22,9 +22,6 @@ const Footer = () => {
         </li>
         <li>
           <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contacts">Home</a>
         </li>
       </ul>
 

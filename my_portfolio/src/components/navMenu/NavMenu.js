@@ -3,7 +3,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBookAlt } from "react-icons/bi";
 import { AiOutlineFolderOpen } from "react-icons/ai";
-import { BiMessageRoundedDetail } from "react-icons/bi";
+import { BiMessageSquareDetail } from "react-icons/bi";
 import "./navMenu.css";
 import { useState } from "react";
 
@@ -16,35 +16,37 @@ const NavMenu = () => {
         className={activeNav === "#" ? "active" : ""}
         onClick={() => setActiveNav("#")}
       >
-        <AiOutlineHome />{" "}
+        <AiOutlineHome />
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUser />{" "}
+        <AiOutlineUser />
       </a>
       <a
         href="#experience"
-        className={activeNav === "#experience" ? "active" : ""}
         onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBookAlt />{" "}
+        <BiBookAlt />
       </a>
+
       <a
         href="#projects"
-        className={activeNav === "#projects" ? "active" : ""}
         onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : ""}
       >
-        <AiOutlineFolderOpen />{" "}
-      </a>{" "}
+        <AiOutlineFolderOpen />
+      </a>
+
       <a
         href="#contacts"
-        className={activeNav === "#contacts" ? "active" : ""}
         onClick={() => setActiveNav("#contacts")}
+        className={activeNav === "#contacts" ? "active" : ""}
       >
-        <BiMessageRoundedDetail />{" "}
+        <BiMessageSquareDetail />
       </a>
     </nav>
   );

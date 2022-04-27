@@ -31,7 +31,7 @@ const Contacts = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contacts">
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
 
@@ -59,7 +59,7 @@ const Contacts = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send me a message{" "}
+              Send me a message
             </a>
           </article>
         </div>
