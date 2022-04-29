@@ -8,15 +8,16 @@ const data = [
     id: 1,
     image: img1,
     title: "Space Project",
-    github: "https://github.com",
-    demo: "https://dribbble.com",
+    github:
+      "https://github.com/SchoolOfCode/final-project-front-end-zoomage-daydream",
+    demo: "https://spaces-application.netlify.app",
   },
   {
     id: 2,
     image: img2,
     title: "RPS Project",
-    github: "https://github.com",
-    demo: "https://dribbble.com",
+    github: "https://github.com/Ilie1985/new_rps/blob/main/new_rps/src/App.js",
+    demo: "https://rps-application.netlify.app",
   },
 ];
 
@@ -39,15 +40,21 @@ const Projects = () => {
               </div>
               <h3>{title}</h3>
               <div className="projects_item-link">
-                <a href={github} className="button" target="_blank" rel="noreferrer" >
+                <a
+                  href={github}
+                  className="button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
                 <a
                   href={demo}
                   className="button button-primary"
                   target="_blank"
-                  rel="noreferrer" >
-                  Live Demo
+                  rel="noreferrer"
+                >
+                  See the app
                 </a>
               </div>
             </article>
