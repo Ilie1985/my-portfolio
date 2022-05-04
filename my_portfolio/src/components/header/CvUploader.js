@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../../media/cv.pdf";
+import cv from "../../media/cv.jpg";
 
 
 
