@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3,1fr);
     gap:2.5rem;
     position:relative;
-    left:17%;
+    left:0;
 }
 .projects_item{
 background: var(--color-bg-variant);
@@ -52,5 +52,6 @@ margin-bottom:1rem;
     .projects_container{
         grid-template-columns: 1fr;
         gap:1rem;
+        
     }
     }
