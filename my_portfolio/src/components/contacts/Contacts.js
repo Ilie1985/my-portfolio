@@ -3,6 +3,7 @@ import "./contacts.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { RiMessengerLine } from "react-icons/ri";
 import { RiWhatsappLine } from "react-icons/ri";
+import {AiOutlineLinkedin} from "react-icons/ai"
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -32,8 +33,8 @@ const Contacts = () => {
 
   return (
     <section id="contacts">
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
+      <h3>Get in Touch</h3>
+      
 
       <div className="contact_container">
         <div className="contact_options">
@@ -51,6 +52,14 @@ const Contacts = () => {
           </article>
 
           <article className="contact_option">
+            <AiOutlineLinkedin className="icon" />
+            <h4>LinkedIn</h4>
+            <h5>Marian Ilie</h5>
+            <a href="https://www.linkedin.com/in/marian-ilie-44b967b4/">Send me a message </a>
+          </article>
+
+
+          <article className="contact_option">
             <RiWhatsappLine className="icon" />
             <h4>Whatsapp</h4>
             <h5>Contact me on whatsapp</h5>
@@ -65,7 +74,7 @@ const Contacts = () => {
         </div>
         {/* Contact_options div ends here */}
 
-        <form ref={form} onSubmit={sendEmail}>
+        {/* <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
@@ -87,7 +96,7 @@ const Contacts = () => {
           <button className="button button-primary" type="submit">
             Send Message
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

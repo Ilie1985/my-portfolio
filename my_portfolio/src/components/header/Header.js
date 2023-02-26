@@ -1,28 +1,28 @@
 import React from "react";
 import CvUploader from "./CvUploader";
 import imageOfMe from "../../media/imageOfMe.jpg";
-import HeaderSocials from "./HeaderSocials";
+// import HeaderSocials from "./HeaderSocials";
 import "./header.css";
 
 const Header = () => {
   return (
-    <header>
+    <>
       <div className="header_container">
-        <h3>Hello, my name is </h3>
-        <h1>Marian Ilie</h1>
-        <h5 className="text-light">Full Stack Developer </h5>
+        <h3>Hello, my name is Marian Ilie </h3>
+        {/* <h1>Marian Ilie</h1> */}
+        {/* <h5 className="text-light">Software Engineer </h5> */}
         <CvUploader />
-        <HeaderSocials />
+        {/* <HeaderSocials /> */}
 
         <div className="imageOfMe">
           <img src={imageOfMe} alt="imageOfMe" className="imageOfMeSize" />
         </div>
 
         <a href="#contacts" className="scroll_down">
-          Scroll Down
+          Scroll Down To Contact
         </a>
       </div>
-    </header>
+    </>
   );
 };
 

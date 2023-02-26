@@ -1,117 +1,114 @@
-header{
-    height:100vh;
-     padding-top:1rem; 
-    overflow:hidden; 
+header {
+  height: 50vh;
+  /* padding-top: 1rem; */
+  overflow: hidden;
 }
 
-.header_container{
-    text-align: center;
-    height:100%;
-    position:relative;  
-    overflow-y: hidden;
-
+h2 {
+  position: relative;
+  left: 46%;
 }
- 
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
 
 /* ================ CvUploader ================= */
 
-
-.cv-upload{
-    /* margin-top:2.5rem; */
-    display: flex;
-    gap:1rem;
-    justify-content:center;
+.cv-upload {
+  margin-top: 1rem;
+  margin-bottom:1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 /* ================ HeaderSocials ================= */
 
- .header_socials{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:1rem;
-    position:absolute;
-    left:0;
-    bottom:3rem;
-
- }
+/* .header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+} */
 /* used the after pseudo-elements */
- .header_socials::after{
-  content:"";
-  width:1px;
-  height:2rem;
+/* .header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
   background: var(--color-primary);
- }
+} */
 
- /* ================ imageOfMe ================= */
+/* ================ imageOfMe ================= */
 
 .imageOfMe {
-    background:linear-gradient(var(--color-primary),transparent);
-    width:30rem;
-    height:40rem;
-    position:absolute;
-    left: calc(46% - 11rem);
-    margin-top: 4rem;
-    border-radius:12rem 12rem 0 0;
-    overflow:hidden;
-    padding:5rem 1.5rem 1.5rem 1.5rem;
+  /* background:linear-gradient(var(--color-primary),transparent); */
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: calc(10% - 4rem);
+  top: 10%;
+  /* margin-top: 1rem; */
+  /* border-radius: 12rem 12rem 0 0; */
+  overflow: hidden;
+  /* padding-top: 1rem; */
 }
- .imageOfMeSize{
-    width:80%;
-    display: flex;
-    position:absolute;
-    left:2.7rem;
-    border-radius:30px 30px 0 0;
-} 
+.imageOfMeSize {
+  width: 90%;
+  display: flex;
+  position: absolute;
 
- /* ================ SCROLL DOWN ================= */
- .scroll_down{
-position:absolute;
-right:-1.6rem;
-bottom:7rem;
-transform:rotate(90deg);
-font-weight: 300;
-font-size:1rem;
- }
-
- /* ============ MEDIA QUERIES(MEDIUM DEVICES) =============  */
- @media screen and (max-width:1024px){
-
-    header {
-        height:68vh; 
-        position:relative;
-        left:0.5rem;
-     }
-    
-    
- 
-
-}
- 
- 
-  /* ============ MEDIA QUERIES(SMALL DEVICES) =============  */
- @media screen and (max-width:600px){
-header{
-    height:100vh;
-}
-.header_socials, .scroll_down{
-display :none;
+  /* left: 1px; */
+  border-radius: 60px 60px 60px 60px;
 }
 
-.imageOfMe{
-    width:90%;
-    height:60%;
-    position:relative;
-    left:0.8rem;
+/* ================ SCROLL DOWN ================= */
+.scroll_down {
+  /* position: absolute;
+  right: -4rem;
+  bottom: 3rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 1rem; */
+ border-bottom: 1px solid ;
 }
 
-.imageOfMeSize{
-    width:100%;
-    position:relative;
-    left:0.1rem;
-
-    
+/* ============ MEDIA QUERIES(MEDIUM DEVICES) =============  */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+    position: relative;
+    left: 0.5rem;
+  }
 }
 
+/* ============ MEDIA QUERIES(SMALL DEVICES) =============  */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
 
- }
+  .imageOfMe {
+    width: 90%;
+    height: 60%;
+    position: relative;
+    left: 0.8rem;
+  }
+
+  .imageOfMeSize {
+    width: 100%;
+    position: relative;
+    left: 0.1rem;
+  }
+}
