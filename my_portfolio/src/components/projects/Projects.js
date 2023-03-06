@@ -1,10 +1,11 @@
 import React from "react";
 import img1 from "../../media/img1.jpg";
 import img2 from "../../media/img2.jpg";
-import img3 from "../../media/img3.jpg"
-import img4 from "../../media/img4.jpg"
-import img5 from "../../media/img5.jpg"
-import img6 from "../../media/img6.jpg"
+import img3 from "../../media/img3.jpg";
+import img4 from "../../media/img4.jpg";
+import img5 from "../../media/img5.jpg";
+import img6 from "../../media/img6.jpg";
+import img7 from "../../media/img7.jpg";
 import "./projects.css";
 
 const data = [
@@ -50,6 +51,13 @@ const data = [
     title: "Cocktails",
     github: "https://github.com/Ilie1985/cocktails_reactjs",
     demo: "https://cocktailscd.netlify.app/",
+  },
+  {
+    id: 7,
+    image: img7,
+    title: "Realtor",
+    github: "https://github.com/Ilie1985/realtor_reactjs",
+    demo: "https://realtor-reactjs-rho.vercel.app/",
   },
 ];
 
