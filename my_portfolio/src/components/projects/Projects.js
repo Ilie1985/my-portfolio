@@ -6,6 +6,7 @@ import img4 from "../../media/img4.jpg";
 import img5 from "../../media/img5.jpg";
 import img6 from "../../media/img6.jpg";
 import img7 from "../../media/img7.jpg";
+import img8 from "../../media/img8.jpg";
 import "./projects.css";
 
 const data = [
@@ -58,6 +59,13 @@ const data = [
     title: "Realtor",
     github: "https://github.com/Ilie1985/realtor_reactjs",
     demo: "https://realtor-reactjs-rho.vercel.app/",
+  },
+  {
+    id: 8,
+    image: img8,
+    title: "IMDb Clone",
+    github: "https://github.com/Ilie1985/imdb_react_nextjs",
+    demo: "https://imdb-react-nextjs.vercel.app/",
   },
 ];
 
