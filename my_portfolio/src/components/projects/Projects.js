@@ -25,6 +25,7 @@ const data = [
     title: "RPS Project",
     github: "https://github.com/Ilie1985/new_rps/blob/main/new_rps/src/App.js",
     demo: "https://rps-application.netlify.app",
+    description:"React js project  with useState,useEffect"
   },
   {
     id: 3,
@@ -32,6 +33,7 @@ const data = [
     title: "Github-User Search",
     github: "hhttps://github.com/Ilie1985/search_github_users_reactjs",
     demo: "https://githubuser-search-md.netlify.app/",
+    description:"React js project ,used React Router 6,useState,useEffect,useContext, auth0"
   },
   {
     id: 4,
@@ -39,6 +41,7 @@ const data = [
     title: "Jobrecord",
     github: "https://github.com/Ilie1985/job_finder_reactjs",
     demo: "https://jobrecord.netlify.app/",
+    description:"React js project ,used React Router 6,useState,react-redux "
   },
   {
     id: 5,
@@ -46,6 +49,7 @@ const data = [
     title: "Comfysloth",
     github: "https://github.com/Ilie1985/comfy_sloth_project",
     demo: "https://comfyslooth.netlify.app/",
+    description:"React js project ,used React Router 6,useState,useEffect, UseContext,useReducer hooks, auth0 for authentication "
   },
   {
     id: 6,
@@ -53,6 +57,7 @@ const data = [
     title: "Cocktails",
     github: "https://github.com/Ilie1985/cocktails_reactjs",
     demo: "https://cocktailscd.netlify.app/",
+    description:"React js project ,used React Router 6,useState,useEffect and UseContext hooks"
   },
   {
     id: 7,
@@ -60,6 +65,7 @@ const data = [
     title: "Realtor",
     github: "https://github.com/Ilie1985/realtor_reactjs",
     demo: "https://realtor-reactjs-rho.vercel.app/",
+    description:"React js project ,used Firebase auth for complete authentication,Firebase Firestore to store and fetch the data,tailwind css 3,CRUD operations using Firebase Firestore,added a map to the page using leaflet and react leaflet packages,used Google geolocation API to convert address to latitude and longitude,deployed to Vercel"
   },
   {
     id: 8,
@@ -67,6 +73,7 @@ const data = [
     title: "IMDb Clone",
     github: "https://github.com/Ilie1985/imdb_react_nextjs",
     demo: "https://imdb-react-nextjs.vercel.app/",
+    description:"IMDb clone project using Next.js 13 and Tailwind CSS, fetched data from TMDB API and deployed to Vercel"
   },
   {
     id: 9,
@@ -74,6 +81,7 @@ const data = [
     title: "Google Clone",
     github: "https://github.com/Ilie1985/Google_clone_nextjs13",
     demo: "https://google-clone-nextjs13.vercel.app/",
+    description:"Google clone project using Next.js 13 and Tailwind CSS, fetched data from Google search API and deployed to Vercel"
   },
 ];
 
@@ -82,7 +90,7 @@ const Projects = () => {
     <section id="projects">
       <h3>My recent work</h3>
       <div className="projects_container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo,description}) => {
           return (
             <article key={id} className="projects_item">
               <div className="projects_item-img">
@@ -111,6 +119,7 @@ const Projects = () => {
                   See the app
                 </a>
               </div>
+                <p>{description}</p>
             </article>
           );
         })}
