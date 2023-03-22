@@ -7,6 +7,7 @@ import img5 from "../../media/img5.jpg";
 import img6 from "../../media/img6.jpg";
 import img7 from "../../media/img7.jpg";
 import img8 from "../../media/img8.jpg";
+import img9 from "../../media/img9.jpg";
 import "./projects.css";
 
 const data = [
@@ -66,6 +67,13 @@ const data = [
     title: "IMDb Clone",
     github: "https://github.com/Ilie1985/imdb_react_nextjs",
     demo: "https://imdb-react-nextjs.vercel.app/",
+  },
+  {
+    id: 9,
+    image: img9,
+    title: "Google Clone",
+    github: "https://github.com/Ilie1985/Google_clone_nextjs13",
+    demo: "https://google-clone-nextjs13.vercel.app/",
   },
 ];
 
