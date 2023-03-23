@@ -18,6 +18,7 @@ const data = [
     github:
       "https://github.com/SchoolOfCode/final-project-front-end-zoomage-daydream",
     demo: "https://spaces-application.netlify.app",
+    description:" This project is created by team of six people following the Agile methodology as a final project of School of Code Bootcamp .Though there is no commercial business behind this app, the platform itself is a functional app bringing the aim to improve the environment in our community by working with area businesses, community leaders and our neighbors to create a clean and safe place to work. Used React.js, Node.js, Heroku, Postman, PostgreSQL ,Cypruss for testing, TDD,Auth0, Netlify, Cloudinary.com"
   },
   {
     id: 2,
