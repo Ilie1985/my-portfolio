@@ -8,6 +8,7 @@ import img6 from "../../media/img6.jpg";
 import img7 from "../../media/img7.jpg";
 import img8 from "../../media/img8.jpg";
 import img9 from "../../media/img9.jpg";
+import img10 from "../../media/img10.jpg";
 import "./projects.css";
 
 const data = [
@@ -18,6 +19,14 @@ const data = [
     github: "https://github.com/Ilie1985/job_finder_reactjs",
     demo: "https://jobrecord.netlify.app/",
     description: "React js project ,used React Router 6,useState,react-redux ",
+  },
+  {
+    id: 5,
+    image: img10,
+    title: "Instagram Clone",
+    github: "https://github.com/Ilie1985/insta_nextjs12",
+    demo: "https://insta-nextjs12.vercel.app/",
+    description: "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
   },
   {
     id: 5,
