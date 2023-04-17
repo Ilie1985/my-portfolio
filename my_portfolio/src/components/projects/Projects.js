@@ -9,6 +9,7 @@ import img7 from "../../media/img7.jpg";
 import img8 from "../../media/img8.jpg";
 import img9 from "../../media/img9.jpg";
 import img10 from "../../media/img10.jpg";
+import img11 from "../../media/img11.jpg";
 import "./projects.css";
 
 const data = [
@@ -26,7 +27,17 @@ const data = [
     title: "Instagram Clone",
     github: "https://github.com/Ilie1985/insta_nextjs12",
     demo: "https://insta-nextjs12.vercel.app/",
-    description: "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
+    description:
+      "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
+  },
+  {
+    id: 11,
+    image: img11,
+    title: "Twitter Clone",
+    github: "https://github.com/Ilie1985/twitter_nextjs12",
+    demo: "https://twitter-nextjs12.vercel.app/",
+    description:
+      "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
   },
   {
     id: 5,
