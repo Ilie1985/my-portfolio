@@ -82,7 +82,7 @@ const data = [
     github: "https://github.com/Ilie1985/Google_clone_nextjs13",
     demo: "https://google-clone-nextjs13.vercel.app/",
     description:
-      "Google clone project using Next.js 13 and Tailwind CSS, fetched data from Google search API and deployed to Vercel",
+      "Google clone project using Next.js 13 and Tailwind CSS, fetched data from Google search API and deployed to Vercel, Sign in feature not implemented yet",
   },
   {
     id: 2,
