@@ -10,6 +10,7 @@ import img8 from "../../media/img8.jpg";
 import img9 from "../../media/img9.jpg";
 import img10 from "../../media/img10.jpg";
 import img11 from "../../media/img11.jpg";
+import img12 from "../../media/img12.jpg";
 import "./projects.css";
 
 const data = [
@@ -20,6 +21,15 @@ const data = [
     github: "https://github.com/Ilie1985/job_finder_reactjs",
     demo: "https://jobrecord.netlify.app/",
     description: "React js project ,used React Router 6,useState,react-redux ",
+  },
+
+  {
+    id: 12,
+    image: img12,
+    title: "chatGPTclone",
+    github: "https://github.com/Ilie1985/job_finder_reactjs",
+    demo: "https://chat-gp-tclone-nextjs13.vercel.app",
+    description: "Next.js v13 app, used OpenAI's GPT API, Next JS edge functions to stream chat responses, MongoDB for data storage, Auth0 for user authentication and user accounts, Tailwind CSS ,deployed app on Vercel. ",
   },
   {
     id: 5,
