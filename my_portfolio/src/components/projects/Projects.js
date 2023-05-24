@@ -27,7 +27,7 @@ const data = [
     id: 12,
     image: img12,
     title: "chatGPTclone",
-    github: "https://github.com/Ilie1985/job_finder_reactjs",
+    github: "https://github.com/Ilie1985/chatGPTclone_nextjs13",
     demo: "https://chat-gp-tclone-nextjs13.vercel.app",
     description: "Next.js v13 app, used OpenAI's GPT API, Next JS edge functions to stream chat responses, MongoDB for data storage, Auth0 for user authentication and user accounts, Tailwind CSS ,deployed app on Vercel. ",
   },
