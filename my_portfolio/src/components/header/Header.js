@@ -14,9 +14,9 @@ const Header = () => {
         <CvUploader />
         {/* <HeaderSocials /> */}
 
-        <div className="imageOfMe">
+        {/* <div className="imageOfMe">
           <img src={imageOfMe} alt="imageOfMe" className="imageOfMeSize" />
-        </div>
+        </div> */}
 
         <a href="#contacts" className="scroll_down">
           Scroll Down To Contact
