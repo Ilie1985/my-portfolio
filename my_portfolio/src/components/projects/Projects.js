@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../media/img1.jpg";
+// import img1 from "../../media/img1.jpg";
 import img2 from "../../media/img2.jpg";
 import img3 from "../../media/img3.jpg";
 import img4 from "../../media/img4.jpg";
@@ -102,16 +102,16 @@ const data = [
     demo: "https://rps-application.netlify.app",
     description: "React js project  with useState,useEffect",
   },
-  {
-    id: 1,
-    image: img1,
-    title: "Space Project",
-    github:
-      "https://github.com/SchoolOfCode/final-project-front-end-zoomage-daydream",
-    demo: "https://spaces-application.netlify.app",
-    description:
-      " This project is created by team of six people following the Agile methodology as a final project of School of Code Bootcamp .Though there is no commercial business behind this app, the platform itself is a functional app bringing the aim to improve the environment in our community by working with area businesses, community leaders and our neighbors to create a clean and safe place to work. Used React.js, Node.js, Heroku, Postman, PostgreSQL ,Cypruss for testing, TDD,Auth0, Netlify, Cloudinary.com",
-  },
+  // {
+  //   id: 1,
+  //   image: img1,
+  //   title: "Space Project",
+  //   github:
+  //     "https://github.com/SchoolOfCode/final-project-front-end-zoomage-daydream",
+  //   demo: "https://spaces-application.netlify.app",
+  //   description:
+  //     " This project is created by team of six people following the Agile methodology as a final project of School of Code Bootcamp .Though there is no commercial business behind this app, the platform itself is a functional app bringing the aim to improve the environment in our community by working with area businesses, community leaders and our neighbors to create a clean and safe place to work. Used React.js, Node.js, Heroku, Postman, PostgreSQL ,Cypruss for testing, TDD,Auth0, Netlify, Cloudinary.com",
+  // },
   {
     id: 3,
     image: img3,
