@@ -3,13 +3,13 @@ import React from "react";
 import img2 from "../../media/img2.jpg";
 import img3 from "../../media/img3.jpg";
 import img4 from "../../media/img4.jpg";
-import img5 from "../../media/img5.jpg";
+// import img5 from "../../media/img5.jpg";
 import img6 from "../../media/img6.jpg";
 import img7 from "../../media/img7.jpg";
 import img8 from "../../media/img8.jpg";
 import img9 from "../../media/img9.jpg";
-import img10 from "../../media/img10.jpg";
-import img11 from "../../media/img11.jpg";
+// import img10 from "../../media/img10.jpg";
+// import img11 from "../../media/img11.jpg";
 // import img12 from "../../media/img12.jpg";
 import "./projects.css";
 
@@ -80,7 +80,7 @@ const data = [
     id: 8,
     image: img8,
     title: "IMDb Clone",
-    github: "https://github.com/Ilie1985/imdb_react_nextjs",
+    github: "https://github.com/Ilie1985/imdb_clone_nextjs13_.git",
     demo: "https://imdb-react-nextjs.vercel.app/",
     description:
       "IMDb clone project using Next.js 13 and Tailwind CSS, fetched data from TMDB API and deployed to Vercel",
