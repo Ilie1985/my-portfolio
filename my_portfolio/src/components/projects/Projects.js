@@ -10,7 +10,7 @@ import img8 from "../../media/img8.jpg";
 import img9 from "../../media/img9.jpg";
 import img10 from "../../media/img10.jpg";
 import img11 from "../../media/img11.jpg";
-import img12 from "../../media/img12.jpg";
+// import img12 from "../../media/img12.jpg";
 import "./projects.css";
 
 const data = [
@@ -23,41 +23,41 @@ const data = [
     description: "React js project ,used React Router 6,useState,react-redux ",
   },
 
-  {
-    id: 12,
-    image: img12,
-    title: "chatGPTclone",
-    github: "https://github.com/Ilie1985/chatGPTclone_nextjs13",
-    demo: "https://chat-gp-tclone-nextjs13.vercel.app",
-    description: "Next.js v13 app, used OpenAI's GPT API, Next JS edge functions to stream chat responses, MongoDB for data storage, Auth0 for user authentication and user accounts, Tailwind CSS ,deployed app on Vercel. ",
-  },
-  {
-    id: 5,
-    image: img10,
-    title: "Instagram Clone",
-    github: "https://github.com/Ilie1985/insta_nextjs12",
-    demo: "https://insta-nextjs12.vercel.app/",
-    description:
-      "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
-  },
-  {
-    id: 11,
-    image: img11,
-    title: "Twitter Clone",
-    github: "https://github.com/Ilie1985/twitter_nextjs12",
-    demo: "https://twitter-nextjs12.vercel.app/",
-    description:
-      "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
-  },
-  {
-    id: 5,
-    image: img5,
-    title: "Comfysloth",
-    github: "https://github.com/Ilie1985/comfy_sloth_project",
-    demo: "https://comfyslooth.netlify.app/",
-    description:
-      "React js project ,used React Router 6,useState,useEffect, UseContext,useReducer hooks, auth0 for authentication ",
-  },
+  // {
+  //   id: 12,
+  //   image: img12,
+  //   title: "chatGPTclone",
+  //   github: "https://github.com/Ilie1985/chatGPTclone_nextjs13",
+  //   demo: "https://chat-gp-tclone-nextjs13.vercel.app",
+  //   description: "Next.js v13 app, used OpenAI's GPT API, Next JS edge functions to stream chat responses, MongoDB for data storage, Auth0 for user authentication and user accounts, Tailwind CSS ,deployed app on Vercel. ",
+  // },
+  // {
+  //   id: 5,
+  //   image: img10,
+  //   title: "Instagram Clone",
+  //   github: "https://github.com/Ilie1985/insta_nextjs12",
+  //   demo: "https://insta-nextjs12.vercel.app/",
+  //   description:
+  //     "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
+  // },
+  // {
+  //   id: 11,
+  //   image: img11,
+  //   title: "Twitter Clone",
+  //   github: "https://github.com/Ilie1985/twitter_nextjs12",
+  //   demo: "https://twitter-nextjs12.vercel.app/",
+  //   description:
+  //     "Nextjs12 project, tailwindcss,minifaker,firebase auth ,google data ,deployed to vercel",
+  // },
+  // {
+  //   id: 5,
+  //   image: img5,
+  //   title: "Comfysloth",
+  //   github: "https://github.com/Ilie1985/comfy_sloth_project",
+  //   demo: "https://comfyslooth.netlify.app/",
+  //   description:
+  //     "React js project ,used React Router 6,useState,useEffect, UseContext,useReducer hooks, auth0 for authentication ",
+  // },
   {
     id: 6,
     image: img6,
@@ -71,7 +71,7 @@ const data = [
     id: 7,
     image: img7,
     title: "Realtor",
-    github: "https://github.com/Ilie1985/realtor_reactjs",
+    github: "https://github.com/Ilie1985/realtor_reactjs_.git",
     demo: "https://realtor-reactjs-rho.vercel.app/",
     description:
       "React js project ,used Firebase auth for complete authentication,Firebase Firestore to store and fetch the data,tailwind css 3,CRUD operations using Firebase Firestore,added a map to the page using leaflet and react leaflet packages,used Google geolocation API to convert address to latitude and longitude,deployed to Vercel",
