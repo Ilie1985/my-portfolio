@@ -1,7 +1,7 @@
 import React from "react";
 // import img1 from "../../media/img1.jpg";
 import img2 from "../../media/img2.jpg";
-import img3 from "../../media/img3.jpg";
+// import img3 from "../../media/img3.jpg";
 import img4 from "../../media/img4.jpg";
 // import img5 from "../../media/img5.jpg";
 import img6 from "../../media/img6.jpg";
@@ -112,15 +112,15 @@ const data = [
   //   description:
   //     " This project is created by team of six people following the Agile methodology as a final project of School of Code Bootcamp .Though there is no commercial business behind this app, the platform itself is a functional app bringing the aim to improve the environment in our community by working with area businesses, community leaders and our neighbors to create a clean and safe place to work. Used React.js, Node.js, Heroku, Postman, PostgreSQL ,Cypruss for testing, TDD,Auth0, Netlify, Cloudinary.com",
   // },
-  {
-    id: 3,
-    image: img3,
-    title: "Github-User Search",
-    github: "hhttps://github.com/Ilie1985/search_github_users_reactjs",
-    demo: "https://githubuser-search-md.netlify.app/",
-    description:
-      "React js project ,used React Router 6,useState,useEffect,useContext, auth0",
-  },
+  // {
+  //   id: 3,
+  //   image: img3,
+  //   title: "Github-User Search",
+  //   github: "hhttps://github.com/Ilie1985/search_github_users_reactjs",
+  //   demo: "https://githubuser-search-md.netlify.app/",
+  //   description:
+  //     "React js project ,used React Router 6,useState,useEffect,useContext, auth0",
+  // },
 ];
 
 const Projects = () => {
